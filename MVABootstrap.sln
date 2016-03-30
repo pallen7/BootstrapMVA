@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63E45F7C-885C-4636-AB4D-53B8BA96B837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{950FD28E-A035-4E83-9F0E-910B79526A00}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVABootstrap", "src\MVABootstrap\MVABootstrap.xproj", "{EDE65F3C-899C-4D19-B344-413016A996D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE65F3C-899C-4D19-B344-413016A996D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE65F3C-899C-4D19-B344-413016A996D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE65F3C-899C-4D19-B344-413016A996D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE65F3C-899C-4D19-B344-413016A996D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDE65F3C-899C-4D19-B344-413016A996D4} = {63E45F7C-885C-4636-AB4D-53B8BA96B837}
+	EndGlobalSection
+EndGlobal
